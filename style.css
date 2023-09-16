@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(7475691-ai.jpg) no-repeat center;
+    /* background-attachment: fixed;  */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+* about section styling */
+.titleabout{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    padding-bottom: 00px;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+}
+.about .about-content .right .text span{
+    color: #76326d;
+}
+.about .about-content .right p{
+    text-align: justify;
+    color: #000000;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: #76326d;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #76326d;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: #76326d;
+    background: none;
+}
+
+/* Import fonts */
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar .logo {
+      margin: 10px 0;
+    }
+  
+    ul {
+      text-align: center;
+    }
+  
+    ul li {
+      margin: 10px 0;
+    }
+  
+    .main {
+      background-size: contain;
+    }
+  
+    .info {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .info h1 {
+      font-size: 40px;
+    }
+  
+    .image {
+      width: 100%;
+      height: auto;
+      position: static;
+      margin: 20px auto;
+    }
+  
+    .image img {
+      height: auto;
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -20px;
+    }
+  
+    /* About section */
+    .about .about-content .left img {
+      height: 300px;
+      width: 300px;
+    }
+  }
+  
+  
